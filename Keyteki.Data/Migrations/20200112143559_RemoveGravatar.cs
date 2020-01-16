@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace Keyteki.Data.Migrations
+﻿namespace Keyteki.Data.Migrations
 {
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class RemoveGravatar : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
