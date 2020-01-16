@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200112143017_RemoveGravatar.cs" />
+    <Compile Remove="Migrations\20200112143017_RemoveGravatar.Designer.cs" />
+    <Compile Remove="Migrations\20200112143202_RemoveGravatar.cs" />
+    <Compile Remove="Migrations\20200112143202_RemoveGravatar.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CrimsonDev.Gameteki.StyleCop.Rules" Version="1.0.0.20" />
   </ItemGroup>
 
